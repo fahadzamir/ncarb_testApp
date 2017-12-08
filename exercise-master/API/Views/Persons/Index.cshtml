@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Persons";
+    Layout = null;
+}
+
+<html ng-app="myApp" ng-controller="HomeController">
+<head>
+    <title>@ViewBag.Title </title>
+    @Scripts.Render("~/bundles/angularbundle/script")
+    @Styles.Render("~/Content/css")
+
+</head>
+<body class="container">
+    <h1>Persons</h1>
+    <div ng-view></div>
+</body>
+</html>
